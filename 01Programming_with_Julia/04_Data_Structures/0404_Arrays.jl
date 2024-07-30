@@ -43,7 +43,7 @@ issubset(["abc", "def"], arrstr)
 ["abc", "def"] ⊆ arrstr     # \subseteq TAB
 
 ["abc", "def"] ⊊ arrstr     # \subsetneq TAB
-arrstr ⊊ arrstr             
+arrstr ⊊ arrstr
 
 arrstr ⊇ ["abc", "def"]     # \supseteq TAB
 

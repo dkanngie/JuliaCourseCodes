@@ -30,7 +30,6 @@ values(grades)
 haskey(grades, "isaac")
 haskey(grades, "marie")
 
-
 get(grades, "albert", "not found")
 get(grades, "bertrand", "not found")
 
@@ -39,7 +38,6 @@ grades
 
 getkey(grades, "albert", "einstein")
 getkey(grades, "isaac", "newton")
-
 
 delete!(grades, "carl")
 
